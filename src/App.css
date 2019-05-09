@@ -1,6 +1,5 @@
 #root {
   height: 100vh;
-  background-color: rgb(102, 102, 153);
 }
 
 #quote-box-container {
@@ -22,7 +21,6 @@
 }
 
 #new-quote {
-  background-color: rgba(102, 102, 153, 1);
   color: white;
   height: 40px;
   width: 100px;
@@ -31,5 +29,5 @@
 }
 
 #new-quote:hover {
-  background-color: rgba(102, 102, 153, 0.9);
+  opacity: 0.9;
 }

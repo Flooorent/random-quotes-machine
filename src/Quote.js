@@ -3,7 +3,7 @@ import './Quote.css'
 
 function Quote(props) {
     return (
-        <div className="quote">
+        <div className="quote" style={{ color: props.color }}>
             <div id="quote">
                 <p>{props.quote}</p>
             </div>
