@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import QUOTES from './quotes'
 import pickElemAtRandom from './utils'
+import Quote from './Quote'
 
 class App extends React.Component {
   constructor(props) {
@@ -57,15 +58,10 @@ class App extends React.Component {
     return (
       <div id="quote-box-container">
         <div id="quote-box">
-          <div>
-            <h1>Random Quotes Machine</h1>
-          </div>
-          <div id="quote">
-            <p>{this.state.quote}</p>
-          </div>
-          <div id="author">
-            <p>{this.state.author}</p>
-          </div>
+          <Quote
+            quote={this.state.quote}
+            author={this.state.author}
+          />
           <div>
             <button id="new-quote" onClick={this.pickNewQuote}>New quote</button>
           </div>

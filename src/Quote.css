@@ -1,0 +1,15 @@
+.quote {
+    display: flex;
+    flex-direction: column;
+}
+
+#quote {
+    font-size: 30px;
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+}
+
+#author {
+    align-self: flex-end;
+}
