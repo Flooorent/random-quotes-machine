@@ -1,6 +1,7 @@
 .quote {
     display: flex;
     flex-direction: column;
+    color: rgb(102, 102, 153)
 }
 
 #quote {
